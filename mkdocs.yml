@@ -95,7 +95,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_css:
-  - assets/extra.css
+  - assets/stylesheets/extra.css
 
 extra_javascript:
   - https://unpkg.com/mermaid@8.6.4/dist/mermaid.min.js
@@ -104,7 +104,7 @@ extra_javascript:
 nav:
   - Home: index.md
   - ... | reference/*.md
-  - ...
+  - ... | blog/**
 
 # Google Analytics
 # google_analytics:
